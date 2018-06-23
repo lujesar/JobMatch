@@ -1,0 +1,91 @@
+header{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div{
+    width: 20%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menino-neymar{
+    background-image: url(Imagens/jovens1.jpg);
+    height: 662px;     
+}
+.menino-neymar h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 462px;
+    vertical-align: middle;
+
+}
+h2{
+    margin: 0;
+    padding: 100px;
+    font-size: 42px;
+    color: white;
+}
+.areas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.areas div{
+    width: 20%;
+    padding: 50px;
+}
+.areas h3{
+    margin: 0;
+    text-align: center;
+}
+.areas img{
+    width: 100%;
+}
+.como{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.como img{
+    width: 35%;
+}
+.como div{
+    width: 37%;
+}
+.como p{
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.botao{
+    text-align: center; 
+    height: 100px; padding: 10px;
+    margin-top: 20px;
+}
+#botao{
+    background-color: #d4001c;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+#contato{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#contato p{
+    margin: 0;
+}
